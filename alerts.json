@@ -1,0 +1,271 @@
+{"timestamp":"2026-11-08T12:02:08.117076700Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T12:02:08.129078700Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T12:02:08.130078800Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T12:02:08.133076200Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T12:02:08.134078300Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T12:02:08.134078300Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T12:02:08.137078400Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T12:02:08.139079Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T12:04:35.027153200Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T12:04:35.038153900Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T12:04:35.040155Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T12:04:35.042154800Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T12:04:35.043154Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T12:04:35.044155700Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T12:04:35.045157100Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T12:04:35.046156Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T12:06:36.623808600Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T12:06:36.633807600Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T12:06:36.635809300Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T12:06:36.635809300Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T12:06:36.636809200Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T12:06:36.638807400Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T12:06:36.641809Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T12:06:36.644807500Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T12:06:42.386682700Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T12:06:42.397685300Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T12:06:42.398686900Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T12:06:42.402695800Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T12:06:42.404687Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T12:06:42.404687Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T12:06:42.405684Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T12:06:42.408688200Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T12:36:57.844034700Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T12:36:57.855064100Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T12:36:57.857216100Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T12:36:57.857734800Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T12:36:57.858249200Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T12:36:57.859278200Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T12:36:57.861470400Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T12:36:57.863050500Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T12:47:26.513832100Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T12:47:26.523298100Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T12:47:26.524354200Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T12:47:26.525441400Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T12:47:26.527549400Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T12:47:26.528636600Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T12:47:26.530922100Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T12:47:26.533169Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T12:47:57.201385Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T12:47:57.209393300Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T12:47:57.211506900Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T12:47:57.212057300Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T12:47:57.212604400Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T12:47:57.213698600Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T12:47:57.216415700Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T12:47:57.217973600Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T13:49:29.515916600Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T13:49:29.530908800Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T13:49:29.535370100Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T13:49:29.536529500Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T13:49:29.537092100Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T13:49:29.539407900Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T13:49:29.541625400Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T13:49:29.543921Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T13:51:13.321344800Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T13:51:13.330183300Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T13:51:13.332943700Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T13:51:13.334656400Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T13:51:13.335252100Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T13:51:13.335768600Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T13:51:13.337857200Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T13:51:13.339435300Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T13:53:55.937594Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T13:53:55.950648800Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T13:53:55.956553200Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T13:53:55.957601500Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T13:53:55.958130300Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T13:53:55.959701300Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T13:53:55.960225100Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T13:53:55.961293800Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T13:53:55.962372700Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T13:53:55.963990400Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:00:27.452366Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:00:27.457859300Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:00:27.458424900Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:00:27.460964800Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:00:27.462813300Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:00:27.465413500Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:00:27.467269700Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:00:27.468345600Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T14:00:27.469236400Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:00:27.472795900Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:00:27.476822700Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:00:27.479253700Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:00:32.369449700Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:00:32.371708200Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:00:32.373817900Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:00:32.375173900Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:00:32.375983500Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T14:00:32.378707700Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:00:32.380498800Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:00:32.383379100Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:00:32.385526400Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:00:32.389541900Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:00:32.392215Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:00:32.394764600Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:00:59.055573300Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:00:59.057184800Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:00:59.059654500Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:00:59.060764600Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:00:59.060764600Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:00:59.063693600Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:00:59.064698Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T14:00:59.066702900Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:00:59.070714900Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:00:59.084092100Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:00:59.086554900Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.10","detail":"address moved from MAC 08:00:27:de:ad:01 to 0a:00:27:00:00:00"}
+{"timestamp":"2026-11-08T14:00:59.087796200Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:00:59.089050600Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:02:59.426350800Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:02:59.431675600Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:02:59.435836700Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:02:59.437953800Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:02:59.439627100Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:02:59.440690300Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:02:59.442286800Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:02:59.442810300Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.10","detail":"address moved from MAC 08:00:27:de:ad:01 to 0a:00:27:00:00:00"}
+{"timestamp":"2026-11-08T14:02:59.444448200Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:02:59.444978400Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:02:59.445494200Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:02:59.446048200Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T14:02:59.446564800Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:03:55.764590Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:03:55.770578800Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:03:55.772676500Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:03:55.776943600Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:03:55.778001600Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:03:55.778595500Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.10","detail":"address moved from MAC 08:00:27:de:ad:01 to 0a:00:27:00:00:00"}
+{"timestamp":"2026-11-08T14:03:55.779117800Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:03:55.779655500Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:03:55.780416500Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:03:55.780943400Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T14:03:55.781467400Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:03:55.783051500Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:03:55.785159100Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:03:56.937997600Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.99","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select null,username,password from users-- &submit..."}
+{"timestamp":"2026-11-08T14:05:27.407280900Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:05:27.413138300Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:05:27.414360700Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:05:27.416212Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:05:27.417276400Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:05:27.420548800Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:05:27.422319600Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:05:27.422852600Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:05:27.423963500Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:05:27.425572600Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:05:28.573774Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.99","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select null,username,password from users-- &submit..."}
+{"timestamp":"2026-11-08T14:14:17.286734600Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:14:17.292355400Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:14:17.294008700Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:14:17.297922200Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T14:14:17.299506700Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:14:17.300586200Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:14:17.302176900Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:14:17.303242600Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:14:17.304297200Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:14:17.304826100Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:14:18.460816300Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.99","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select null,username,password from users-- &submit..."}
+{"timestamp":"2026-11-08T14:14:37.494841Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T14:14:37.502585800Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T14:14:37.509924100Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T14:14:37.510494100Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T14:14:37.511580500Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T14:14:37.512138900Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T14:14:37.512679600Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T14:14:37.514255100Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T14:14:37.516649500Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T14:14:37.518261700Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:14:37.488804200Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:14:37.494622Z","type":"arp_spoofing","severity":"HIGH","source_ip":"1.1.1.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:14:37.496433100Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.10","detail":"address moved from MAC 08:00:27:de:ad:01 to 0a:00:27:00:00:00"}
+{"timestamp":"2026-11-08T16:14:37.502928700Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T16:14:37.506395600Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T16:14:37.511612100Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:14:37.516313300Z","type":"port_scan","severity":"HIGH","source_ip":"1.1.1.1","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:14:37.522263800Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:14:37.523701200Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:14:37.526618400Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T16:14:37.527846500Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:14:37.530269400Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:14:37.531462400Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"1.1.1.1","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:14:37.532102600Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"1.1.1.1","detail":"login as 'oracle' succeeded right after 5 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:14:37.533290100Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T16:14:37.534637600Z","type":"sql_injection","severity":"HIGH","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select null,username,password from users-- &submit..."}
+{"timestamp":"2026-11-08T16:14:37.535202200Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:14:37.537663900Z","type":"path_traversal","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:14:37.539044200Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:14:37.540305800Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"1.1.1.1","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:14:37.541549700Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:15:04.684321600Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T16:15:04.686376700Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T16:15:04.687723200Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:15:04.688733Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T16:15:04.690812700Z","type":"sql_injection","severity":"HIGH","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select null,username,password from users-- &submit..."}
+{"timestamp":"2026-11-08T16:15:04.695961600Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:15:04.698506300Z","type":"path_traversal","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:15:04.706681400Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:15:04.708623100Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:15:04.712331800Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:15:04.717350300Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:15:04.720301300Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:15:04.722868Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T16:15:04.724158100Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"1.1.1.1","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:15:04.726839300Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:15:04.730949600Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:15:04.735250Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"1.1.1.1","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:15:04.737425100Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"1.1.1.1","detail":"login as 'oracle' succeeded right after 5 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:15:04.744815Z","type":"port_scan","severity":"HIGH","source_ip":"1.1.1.1","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:15:04.747281300Z","type":"arp_spoofing","severity":"HIGH","source_ip":"1.1.1.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:15:04.748038400Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.10","detail":"address moved from MAC 08:00:27:de:ad:01 to 0a:00:27:00:00:00"}
+{"timestamp":"2026-11-08T16:26:30.670311200Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:26:30.675466700Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T16:26:30.677779300Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T16:26:30.682348900Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:26:30.684934100Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T16:26:30.691336200Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:26:30.694879600Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:26:30.695943900Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T16:26:30.697064200Z","type":"sql_injection","severity":"HIGH","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select null,username,password from users-- &submit..."}
+{"timestamp":"2026-11-08T16:26:30.698252700Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:26:30.699219Z","type":"path_traversal","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:26:30.700532700Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:26:30.700840100Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:26:30.702330800Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"1.1.1.1","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:26:30.704833400Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:26:30.706814200Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:26:30.707574200Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"1.1.1.1","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:26:30.708771300Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"1.1.1.1","detail":"login as 'oracle' succeeded right after 5 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:26:30.710404900Z","type":"port_scan","severity":"HIGH","source_ip":"1.1.1.1","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:26:30.712272400Z","type":"arp_spoofing","severity":"HIGH","source_ip":"1.1.1.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:26:30.715041500Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.10","detail":"address moved from MAC 08:00:27:de:ad:01 to 0a:00:27:00:00:00"}
+{"timestamp":"2026-11-08T16:26:51.045428900Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"192.168.56.10","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:26:51.046988700Z","type":"dns_tunneling_burst","severity":"HIGH","source_ip":"192.168.56.10","detail":"8 subdomains queried under evil.org in 20s, potential data tunneling"}
+{"timestamp":"2026-11-08T16:26:51.048803300Z","type":"dns_exfiltration","severity":"HIGH","source_ip":"1.1.1.1","detail":"anomalous DNS query label (51 chars): dgvzdc1zzwnyzxqtzgf0ys1legzpbhryyxrpb24tcgf5bg9hzao.exfil.at..."}
+{"timestamp":"2026-11-08T16:26:51.050845700Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:26:51.053247Z","type":"arp_spoofing","severity":"HIGH","source_ip":"1.1.1.1","detail":"address moved from MAC 0a:00:27:00:00:00 to 08:00:27:de:ad:01, and 08:00:27:de:ad:01 also owns 192.168.56.10"}
+{"timestamp":"2026-11-08T16:26:51.054927Z","type":"arp_spoofing","severity":"HIGH","source_ip":"192.168.56.10","detail":"address moved from MAC 08:00:27:de:ad:01 to 0a:00:27:00:00:00"}
+{"timestamp":"2026-11-08T16:26:51.058366400Z","type":"port_scan","severity":"HIGH","source_ip":"192.168.56.10","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:26:51.060402900Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"192.168.56.10","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:26:51.061778Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"192.168.56.10","detail":"login as 'root' succeeded right after 7 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:26:51.064106600Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"1.1.1.1","detail":"5 failed logins in the last minute, last user tried: oracle"}
+{"timestamp":"2026-11-08T16:26:51.065659500Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"1.1.1.1","detail":"login as 'oracle' succeeded right after 5 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:26:51.067681500Z","type":"sql_injection","severity":"HIGH","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' or '1'='1&submit=submit"}
+{"timestamp":"2026-11-08T16:26:51.069144200Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.11","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert(1)</script>"}
+{"timestamp":"2026-11-08T16:26:51.070671300Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.12","detail":"request: /dvwa/../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:26:51.071312500Z","type":"scanner_tool_detected","severity":"MEDIUM","source_ip":"192.168.56.13","detail":"user agent looks like sqlmap"}
+{"timestamp":"2026-11-08T16:26:51.073209Z","type":"sql_injection","severity":"HIGH","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select null,username,password from users-- &submit..."}
+{"timestamp":"2026-11-08T16:26:51.073766400Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:26:51.075062700Z","type":"path_traversal","severity":"MEDIUM","source_ip":"1.1.1.1","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:26:51.076411600Z","type":"xss_attempt","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/vulnerabilities/xss_r/?name=<script>alert('pwned')</script>"}
+{"timestamp":"2026-11-08T16:26:51.078295300Z","type":"path_traversal","severity":"MEDIUM","source_ip":"192.168.56.10","detail":"request: /dvwa/../../../../etc/passwd"}
+{"timestamp":"2026-11-08T16:26:51.080223700Z","type":"port_scan","severity":"HIGH","source_ip":"1.1.1.1","detail":"touched 15 different ports in 10 seconds"}
+{"timestamp":"2026-11-08T16:30:57.353410900Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"10.0.0.99","detail":"5 failed logins in the last minute, last user tried: root"}
+{"timestamp":"2026-11-08T16:30:57.366945400Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"10.0.0.99","detail":"login as 'root' succeeded right after 5 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:30:58.337896100Z","type":"sql_injection","severity":"HIGH","source_ip":"10.0.0.99","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select user,password from users-- &submit=submit"}
+{"timestamp":"2026-11-08T16:32:03.633193800Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"10.0.0.99","detail":"5 failed logins in the last minute, last user tried: root"}
+{"timestamp":"2026-11-08T16:32:03.647869100Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"10.0.0.99","detail":"login as 'root' succeeded right after 5 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:32:04.620276400Z","type":"sql_injection","severity":"HIGH","source_ip":"10.0.0.99","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select user,password from users-- &submit=submit"}
+{"timestamp":"2026-11-08T16:32:21.906596400Z","type":"ssh_brute_force","severity":"HIGH","source_ip":"10.0.0.99","detail":"5 failed logins in the last minute, last user tried: root"}
+{"timestamp":"2026-11-08T16:32:21.918367800Z","type":"ssh_login_after_brute_force","severity":"CRITICAL","source_ip":"10.0.0.99","detail":"login as 'root' succeeded right after 5 failures, account may be compromised"}
+{"timestamp":"2026-11-08T16:32:22.895153500Z","type":"sql_injection","severity":"HIGH","source_ip":"10.0.0.99","detail":"request: /dvwa/vulnerabilities/sqli/?id=1' union select user,password from users-- &submit=submit"}

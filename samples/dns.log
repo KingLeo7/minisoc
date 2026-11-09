@@ -1,0 +1,14 @@
+Nov  8 17:35:01 sensor dnsmasq[1402]: query[A] www.google.com from 192.168.56.20
+Nov  8 17:35:02 sensor dnsmasq[1402]: query[A] api.github.com from 192.168.56.20
+Nov  8 17:35:05 sensor dnsmasq[1405]: query[TXT] dGVzdC1zZWNyZXQtZGF0YS1leGZpbHRyYXRpb24tcGF5bG9hZAo.exfil.attacker.com from 192.168.56.10
+Nov  8 17:35:06 sensor dnsmasq[1406]: query[A] chunk01.tunnel.evil.org from 192.168.56.10
+Nov  8 17:35:06 sensor dnsmasq[1407]: query[A] chunk02.tunnel.evil.org from 192.168.56.10
+Nov  8 17:35:07 sensor dnsmasq[1408]: query[A] chunk03.tunnel.evil.org from 192.168.56.10
+Nov  8 17:35:07 sensor dnsmasq[1409]: query[A] chunk04.tunnel.evil.org from 192.168.56.10
+Nov  8 17:35:08 sensor dnsmasq[1410]: query[A] chunk05.tunnel.evil.org from 192.168.56.10
+Nov  8 17:35:08 sensor dnsmasq[1411]: query[A] chunk06.tunnel.evil.org from 192.168.56.10
+Nov  8 17:35:09 sensor dnsmasq[1412]: query[A] chunk07.tunnel.evil.org from 192.168.56.10
+Nov  8 17:35:09 sensor dnsmasq[1413]: query[A] chunk08.tunnel.evil.org from 192.168.56.10
+Nov  8 21:43:20 sensor dnsmasq[5012]: query[TXT] dGVzdC1zZWNyZXQtZGF0YS1leGZpbHRyYXRpb24tcGF5bG9hZAo.exfil.attacker.com from 1.1.1.1
+Nov  8 21:44:20 sensor dnsmasq[5012]: query[TXT] dGVzdC1zZWNyZXQtZGF0YS1leGZpbHRyYXRpb24tcGF5bG9hZAo.exfil.attacker.com from 192.168.56.10
+Nov  8 21:56:36 sensor dnsmasq[5012]: query[TXT] dGVzdC1zZWNyZXQtZGF0YS1leGZpbHRyYXRpb24tcGF5bG9hZAo.exfil.attacker.com from 192.168.56.10

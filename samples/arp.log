@@ -1,0 +1,11 @@
+192.168.56.1 dev eth1 lladdr 0a:00:27:00:00:00 REACHABLE
+192.168.56.20 dev eth1 lladdr 08:00:27:aa:11:22 REACHABLE
+192.168.56.30 dev eth1 lladdr 08:00:27:bb:33:44 STALE
+192.168.56.10 dev eth1 lladdr 08:00:27:de:ad:01 STALE
+192.168.56.1 dev eth1 lladdr 08:00:27:de:ad:01 REACHABLE
+1.1.1.1 dev eth1 lladdr 0a:00:27:00:00:00 REACHABLE
+1.1.1.1 dev eth1 lladdr 08:00:27:de:ad:01 REACHABLE
+192.168.56.10 dev eth1 lladdr 0a:00:27:00:00:00 REACHABLE
+192.168.56.10 dev eth1 lladdr 08:00:27:de:ad:01 REACHABLE
+192.168.56.10 dev eth1 lladdr 0a:00:27:00:00:00 REACHABLE
+192.168.56.10 dev eth1 lladdr 08:00:27:de:ad:01 REACHABLE

