@@ -61,7 +61,7 @@ public class AttackSimulatorDialog extends JDialog {
         pnlGrid.add(createAttackBtn("⚡ SSH Brute Force + Login", "5 failed logins + 1 root compromised", () -> {
             try {
                 AttackSimulator.simulateSshBruteForce(txtIp.getText().trim(), "root");
-                showToast("Injected SSH brute force into samples/auth.log");
+                showToast("SSH brute-force activity", "samples/auth.log");
             } catch (Exception ex) {
                 showError(ex.getMessage());
             }
@@ -70,7 +70,7 @@ public class AttackSimulatorDialog extends JDialog {
         pnlGrid.add(createAttackBtn("⚡ Port Scan (18 Ports)", "Suricata eve.json flow flood", () -> {
             try {
                 AttackSimulator.simulatePortScan(txtIp.getText().trim(), 18);
-                showToast("Injected port scan flow records into samples/eve.json");
+                showToast("Port-scan flow records", "samples/eve.json");
             } catch (Exception ex) {
                 showError(ex.getMessage());
             }
@@ -79,7 +79,7 @@ public class AttackSimulatorDialog extends JDialog {
         pnlGrid.add(createAttackBtn("⚡ SQL Injection", "UNION SELECT password dump", () -> {
             try {
                 AttackSimulator.simulateSqlInjection(txtIp.getText().trim());
-                showToast("Injected SQL injection into samples/access.log");
+                showToast("SQL injection request", "samples/access.log");
             } catch (Exception ex) {
                 showError(ex.getMessage());
             }
@@ -88,7 +88,7 @@ public class AttackSimulatorDialog extends JDialog {
         pnlGrid.add(createAttackBtn("⚡ XSS & Path Traversal", "<script> and ../../../../etc/passwd", () -> {
             try {
                 AttackSimulator.simulateXssAndTraversal(txtIp.getText().trim());
-                showToast("Injected XSS + Traversal into samples/access.log");
+                showToast("XSS and path-traversal requests", "samples/access.log");
             } catch (Exception ex) {
                 showError(ex.getMessage());
             }
@@ -97,7 +97,7 @@ public class AttackSimulatorDialog extends JDialog {
         pnlGrid.add(createAttackBtn("⚡ Vulnerability Scanner", "sqlmap / nikto User-Agent", () -> {
             try {
                 AttackSimulator.simulateScannerTool(txtIp.getText().trim(), "sqlmap");
-                showToast("Injected sqlmap scanner request into samples/access.log");
+                showToast("Vulnerability-scanner request", "samples/access.log");
             } catch (Exception ex) {
                 showError(ex.getMessage());
             }
@@ -106,7 +106,7 @@ public class AttackSimulatorDialog extends JDialog {
         pnlGrid.add(createAttackBtn("⚡ ARP Cache Poisoning", "MAC conflict & IP takeover", () -> {
             try {
                 AttackSimulator.simulateArpSpoof(txtIp.getText().trim(), "0a:00:27:00:00:00", "08:00:27:de:ad:01");
-                showToast("Injected spoofed MAC conflict into samples/arp.log");
+                showToast("ARP address-conflict event", "samples/arp.log");
             } catch (Exception ex) {
                 showError(ex.getMessage());
             }
@@ -115,7 +115,7 @@ public class AttackSimulatorDialog extends JDialog {
         pnlGrid.add(createAttackBtn("⚡ DNS Tunneling / Exfil", "Base64 exfiltration payload query", () -> {
             try {
                 AttackSimulator.simulateDnsExfiltration(txtIp.getText().trim());
-                showToast("Injected DNS tunneling query into samples/dns.log");
+                showToast("DNS tunneling query", "samples/dns.log");
             } catch (Exception ex) {
                 showError(ex.getMessage());
             }
@@ -127,7 +127,7 @@ public class AttackSimulatorDialog extends JDialog {
             new Thread(() -> {
                 try {
                     String ip = txtIp.getText().trim();
-                    showToast("Launching Red Team Wave...");
+                    showToast("Full simulation started", "multiple sample logs");
                     AttackSimulator.simulateSshBruteForce(ip, "oracle");
                     Thread.sleep(400);
                     AttackSimulator.simulateSqlInjection(ip);
@@ -139,7 +139,7 @@ public class AttackSimulatorDialog extends JDialog {
                     AttackSimulator.simulateArpSpoof(ip, "0a:00:27:00:00:00", "08:00:27:de:ad:01");
                     Thread.sleep(400);
                     AttackSimulator.simulateDnsExfiltration(ip);
-                    showToast("Red Team Wave complete! All 5 detectors triggered.");
+                    showToast("Full simulation complete", "multiple sample logs");
                 } catch (Exception ex) {
                     showError(ex.getMessage());
                 }
@@ -177,16 +177,25 @@ public class AttackSimulatorDialog extends JDialog {
         return p;
     }
 
-    private void showToast(String msg) {
+    private void showToast(String activity, String logFile) {
         SwingUtilities.invokeLater(() -> {
-            JOptionPane.showMessageDialog(this, msg, "Attack Traffic Injected", JOptionPane.INFORMATION_MESSAGE);
+            String message = "Activity: " + activity + "\n\n"
+                    + "Log: " + logFile + "\n\n"
+                    + "After the simulation finishes, choose “Replay Lab Samples” on the dashboard "
+                    + "to review the resulting alerts.";
+            SocTheme.showMessageDialog(this, "Simulation Event Added", message,
+                    JOptionPane.INFORMATION_MESSAGE);
         });
     }
 
     private void showError(String msg) {
         SwingUtilities.invokeLater(() -> {
-            JOptionPane.showMessageDialog(this, "Error: " + msg, "Attack Simulation Error", JOptionPane.ERROR_MESSAGE);
+            String detail = msg == null || msg.trim().isEmpty()
+                    ? "The simulation could not be completed. Check the application logs for details."
+                    : msg;
+            SocTheme.showMessageDialog(this, "Simulation Failed",
+                    "The simulation could not be completed.\n\n" + detail,
+                    JOptionPane.ERROR_MESSAGE);
         });
     }
 }
-

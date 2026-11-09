@@ -400,10 +400,12 @@ public class SocGui extends JFrame {
 
     private void startReplay() {
         engine.startReplay(() -> SwingUtilities.invokeLater(() -> {
-            JOptionPane.showMessageDialog(this,
-                    "Replay finished! Processed " + engine.getTotalLinesParsed()
-                            + " lines.\nTotal alerts generated: " + tableModel.getTotalCount(),
-                    "Replay Completed", JOptionPane.INFORMATION_MESSAGE);
+            SocTheme.showMessageDialog(this,
+                    "Sample Replay Complete",
+                    "The sample replay has finished.\n\nLines processed: "
+                            + engine.getTotalLinesParsed()
+                            + "\nAlerts generated: " + tableModel.getTotalCount(),
+                    JOptionPane.INFORMATION_MESSAGE);
         }));
     }
 
@@ -412,9 +414,10 @@ public class SocGui extends JFrame {
     }
 
     private void clearAllAlerts() {
-        int opt = JOptionPane.showConfirmDialog(this,
-                "Are you sure you want to clear all alerts and reset counters?",
-                "Confirm Clear", JOptionPane.YES_NO_OPTION);
+        int opt = SocTheme.showConfirmDialog(this,
+                "Clear Alerts",
+                "Clear all alerts and reset the dashboard counters?\n\nThis action cannot be undone.",
+                JOptionPane.YES_NO_OPTION);
         if (opt == JOptionPane.YES_OPTION) {
             engine.clearAlerts();
             tableModel.clear();
@@ -440,7 +443,9 @@ public class SocGui extends JFrame {
 
     private void openExportDialog() {
         if (tableModel.getTotalCount() == 0) {
-            JOptionPane.showMessageDialog(this, "No alerts to export.", "Export Alerts", JOptionPane.WARNING_MESSAGE);
+            SocTheme.showMessageDialog(this, "Nothing to Export",
+                    "There are no alerts to export yet.",
+                    JOptionPane.WARNING_MESSAGE);
             return;
         }
 
@@ -455,11 +460,13 @@ public class SocGui extends JFrame {
                 } else {
                     engine.exportJson(f.toPath(), tableModel.getAllAlerts());
                 }
-                JOptionPane.showMessageDialog(this, "Alerts successfully exported to " + f.getName(),
-                        "Export Successful", JOptionPane.INFORMATION_MESSAGE);
+                SocTheme.showMessageDialog(this, "Export Complete",
+                        "Alerts were exported successfully.\n\nFile: " + f.getAbsolutePath(),
+                        JOptionPane.INFORMATION_MESSAGE);
             } catch (Exception ex) {
-                JOptionPane.showMessageDialog(this, "Error exporting alerts: " + ex.getMessage(),
-                        "Export Error", JOptionPane.ERROR_MESSAGE);
+                SocTheme.showMessageDialog(this, "Export Failed",
+                        "The alerts could not be exported.\n\n" + ex.getMessage(),
+                        JOptionPane.ERROR_MESSAGE);
             }
         }
     }

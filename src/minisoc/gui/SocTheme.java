@@ -101,7 +101,63 @@ public class SocTheme {
             UIManager.put("ToolTip.background", BG_HEADER);
             UIManager.put("ToolTip.foreground", TEXT_PRIMARY);
             UIManager.put("ToolTip.border", new LineBorder(BORDER_ACTIVE));
+
+            UIManager.put("OptionPane.background", BG_PANEL);
+            UIManager.put("OptionPane.foreground", TEXT_PRIMARY);
+            UIManager.put("OptionPane.messageForeground", TEXT_PRIMARY);
+            UIManager.put("OptionPane.messageFont", FONT_BODY);
+            UIManager.put("OptionPane.buttonFont", FONT_BODY_BOLD);
+            UIManager.put("OptionPane.buttonMinimumWidth", 96);
+            UIManager.put("OptionPane.messageAreaBorder", new EmptyBorder(8, 8, 8, 8));
+            UIManager.put("OptionPane.border",
+                    new CompoundBorder(new LineBorder(BORDER), new EmptyBorder(12, 12, 12, 12)));
+
+            UIManager.put("Button.background", BG_CARD);
+            UIManager.put("Button.foreground", TEXT_PRIMARY);
+            UIManager.put("Button.font", FONT_BODY_BOLD);
+            UIManager.put("Button.select", BG_SELECTED);
         } catch (Exception ignored) {}
+    }
+
+    public static void showMessageDialog(Component parent, String title, String message, int messageType) {
+        showOptionDialog(parent, title, message, messageType, JOptionPane.DEFAULT_OPTION);
+    }
+
+    public static int showConfirmDialog(Component parent, String title, String message, int optionType) {
+        return showOptionDialog(parent, title, message, JOptionPane.QUESTION_MESSAGE, optionType);
+    }
+
+    private static int showOptionDialog(Component parent, String title, String message,
+                                        int messageType, int optionType) {
+        applySystemTheme();
+
+        JOptionPane optionPane = new JOptionPane(
+                createDialogMessage(message), messageType, optionType);
+        JDialog dialog = optionPane.createDialog(parent, title);
+        dialog.setResizable(false);
+        dialog.getContentPane().setBackground(BG_PANEL);
+        dialog.setVisible(true);
+        dialog.dispose();
+
+        Object value = optionPane.getValue();
+        return value instanceof Integer ? (Integer) value : JOptionPane.CLOSED_OPTION;
+    }
+
+    private static JLabel createDialogMessage(String message) {
+        String escaped = message == null ? "" : message;
+        escaped = escaped.replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
+                .replace("\"", "&quot;")
+                .replace("'", "&#39;")
+                .replace("\r\n", "\n")
+                .replace('\r', '\n')
+                .replace("\n", "<br>");
+
+        JLabel label = new JLabel("<html><div style='width: 400px'>" + escaped + "</div></html>");
+        label.setFont(FONT_BODY);
+        label.setForeground(TEXT_PRIMARY);
+        return label;
     }
 
     public static Border createPanelBorder() {
@@ -220,4 +276,3 @@ public class SocTheme {
         }
     }
 }
-
